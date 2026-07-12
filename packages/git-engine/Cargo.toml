@@ -2,9 +2,18 @@
 name = "securenxt-git-engine"
 version = "0.1.0"
 edition = "2021"
+description = "Repository Engine: libgit2-backed local repository management for Securenxt."
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 git2 = { workspace = true }
-securenxt-crypto = { path = "../crypto" }
 serde = { workspace = true }
-tokio = { workspace = true }
+thiserror = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+
+# NOTE (Phase 2): Re-add securenxt-crypto here for Ed25519 commit signing.
+# The crypto crate is a placeholder in Phase 1; linking it would be misleading.
+# See manager.rs for the exact injection point.
+
+[dev-dependencies]
+tempfile = "3"

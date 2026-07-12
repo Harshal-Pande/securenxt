@@ -1,0 +1,29 @@
+# Securenxt workspace Cargo configuration.
+#
+# This file pins the C compiler and linker for the x86_64-pc-windows-gnu target
+# to the 64-bit MinGW-W64 toolchain installed via WinGet (WinLibs, POSIX threads,
+# UCRT runtime).
+#
+# WHY THIS IS NEEDED
+# ------------------
+# Windows machines often have multiple MinGW installations on PATH. The MinGW.org
+# GCC (C:\MinGW\bin\gcc.exe) is a 32-bit-only compiler that cannot produce 64-bit
+# code, causing "sorry, unimplemented: 64-bit mode not compiled in" errors when
+# building vendored C libraries (libgit2, libz).
+#
+# Pinning the linker here means `cargo build` and `cargo test` always use the
+# correct toolchain regardless of PATH ordering.
+#
+# FUTURE
+# ------
+# If the project migrates to x86_64-pc-windows-msvc (requires Visual C++ Build
+# Tools), remove or comment out the [target.x86_64-pc-windows-gnu] block below.
+
+[target.x86_64-pc-windows-gnu]
+linker = "C:\\Users\\Harshal Pande\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\x86_64-w64-mingw32-gcc.exe"
+ar     = "C:\\Users\\Harshal Pande\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\ar.exe"
+
+[env]
+CC_x86_64_pc_windows_gnu = "C:\\Users\\Harshal Pande\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\gcc.exe"
+AR_x86_64_pc_windows_gnu = "C:\\Users\\Harshal Pande\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\ar.exe"
+DLLTOOL_x86_64_pc_windows_gnu = "C:\\Users\\Harshal Pande\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\dlltool.exe"
