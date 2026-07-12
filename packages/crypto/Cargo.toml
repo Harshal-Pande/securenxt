@@ -6,10 +6,12 @@ edition = "2021"
 [dependencies]
 ring = { workspace = true }
 aes-gcm = { workspace = true }
-ed25519-dalek = { workspace = true }
-x25519-dalek = { workspace = true }
+ed25519-dalek = { workspace = true, features = ["rand_core"] }
+x25519-dalek = { workspace = true, features = ["static_secrets"] }
 hkdf = { workspace = true }
 sha2 = { workspace = true }
 rand = { workspace = true }
 argon2 = { workspace = true }
 serde = { workspace = true }
+bs58 = "0.5.1"
+thiserror = "1.0"

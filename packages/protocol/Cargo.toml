@@ -4,8 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+async-trait = "0.1.89"
 prost = { workspace = true }
 prost-types = { workspace = true }
+thiserror = "2.0.18"
+tokio.workspace = true
 
 [build-dependencies]
 prost-build = "0.12"

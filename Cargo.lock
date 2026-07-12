@@ -4357,12 +4357,14 @@ dependencies = [
 name = "securenxt-bluetooth"
 version = "0.1.0"
 dependencies = [
+ "async-trait",
  "btleplug",
  "futures",
  "securenxt-protocol",
  "securenxt-security",
  "serde",
  "tokio",
+ "uuid",
 ]
 
 [[package]]
@@ -4384,12 +4386,14 @@ version = "0.1.0"
 dependencies = [
  "aes-gcm",
  "argon2",
+ "bs58",
  "ed25519-dalek",
  "hkdf",
  "rand 0.8.7",
  "ring",
  "serde",
  "sha2",
+ "thiserror 1.0.69",
  "x25519-dalek",
 ]
 
@@ -4423,21 +4427,45 @@ dependencies = [
 name = "securenxt-protocol"
 version = "0.1.0"
 dependencies = [
+ "async-trait",
  "prost",
  "prost-build",
  "prost-types",
+ "thiserror 2.0.18",
+ "tokio",
 ]
 
 [[package]]
 name = "securenxt-security"
 version = "0.1.0"
 dependencies = [
+ "async-trait",
+ "rand 0.8.7",
+ "securenxt-crypto",
+ "securenxt-git-engine",
+ "serde",
+ "serde_json",
+ "thiserror 1.0.69",
+ "tokio",
+]
+
+[[package]]
+name = "securenxt-session"
+version = "0.1.0"
+dependencies = [
+ "aes-gcm",
+ "hkdf",
+ "prost",
+ "prost-types",
  "rand 0.8.7",
  "securenxt-crypto",
  "securenxt-protocol",
+ "securenxt-security",
  "serde",
- "serde_json",
+ "sha2",
+ "thiserror 2.0.18",
  "tokio",
+ "x25519-dalek",
 ]
 
 [[package]]

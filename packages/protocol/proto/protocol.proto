@@ -12,7 +12,17 @@ message Frame {
     HandshakeMsg handshake = 5;
     ControlMsg control = 6;
     DataMsg data = 7;
+    IdentityExchangeMsg identity_exchange = 8;
   }
+}
+
+// Identity exchange after connection is established
+message IdentityExchangeMsg {
+  string device_id = 1;
+  bytes public_key = 2;
+  string fingerprint = 3;
+  string display_name = 4;
+  uint32 protocol_version = 5;
 }
 
 // Noise protocol authentication payload

@@ -1,16 +1,13 @@
-// Noise handshake and session key establishment logic skeleton
+pub mod error;
+pub mod models;
+pub mod store;
+pub mod identity_manager;
+pub mod trust_manager;
+pub mod git_integration;
 
-pub struct NoiseSession {
-    pub rx_key: [u8; 32],
-    pub tx_key: [u8; 32],
-}
-
-impl NoiseSession {
-    pub fn new_handshake_initiator(_otp: &str) -> Self {
-        Self { rx_key: [0; 32], tx_key: [0; 32] }
-    }
-
-    pub fn new_handshake_responder(_otp: &str) -> Self {
-        Self { rx_key: [0; 32], tx_key: [0; 32] }
-    }
-}
+pub use error::SecurityError;
+pub use models::*;
+pub use store::TrustStore;
+pub use identity_manager::IdentityManager;
+pub use trust_manager::TrustManager;
+pub use git_integration::SecurityCommitSigner;

@@ -10,3 +10,5 @@ futures = { workspace = true }
 serde = { workspace = true }
 securenxt-protocol = { path = "../protocol" }
 securenxt-security = { path = "../security" }
+async-trait = "0.1.89"
+uuid = "1.23.4"

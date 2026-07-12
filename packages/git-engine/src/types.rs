@@ -434,7 +434,8 @@ pub trait CommitSigner: private::Sealed + Send + Sync {
 }
 
 /// Sealing module — keeps `CommitSigner` unimplementable outside approved crates.
-pub(crate) mod private {
+#[doc(hidden)]
+pub mod private {
     /// Marker trait.  Cannot be named from outside this module.
     pub trait Sealed {}
 }

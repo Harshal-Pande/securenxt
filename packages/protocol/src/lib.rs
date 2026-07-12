@@ -1,5 +1,9 @@
-// Protocol buffer bindings entrypoint
 pub mod protocol {
-    // In a full build, this module is populated via build.rs running prost-build.
-    // We include basic struct signatures for compilation check.
+    include!(concat!(env!("OUT_DIR"), "/securenxt.protocol.rs"));
 }
+
+pub mod transport;
+pub mod manager;
+
+pub use transport::{Transport, TransportConnection, TransportAdvertisement, TransportError};
+pub use manager::TransportManager;
