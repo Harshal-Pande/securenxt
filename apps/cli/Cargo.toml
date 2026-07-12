@@ -1,0 +1,13 @@
+[package]
+name = "securenxt-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+securenxt-sync = { path = "../../packages/sync" }
+securenxt-git-engine = { path = "../../packages/git-engine" }
+securenxt-security = { path = "../../packages/security" }
+securenxt-storage = { path = "../../packages/storage" }
+tokio = { workspace = true }
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"

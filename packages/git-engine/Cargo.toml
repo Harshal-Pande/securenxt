@@ -1,0 +1,10 @@
+[package]
+name = "securenxt-git-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+git2 = { workspace = true }
+securenxt-crypto = { path = "../crypto" }
+serde = { workspace = true }
+tokio = { workspace = true }

@@ -1,0 +1,10 @@
+D:\testProj\target\debug\deps\lock_api-b984532dcaba2e47.d: C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\lib.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\mutex.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\remutex.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\rwlock.rs
+
+D:\testProj\target\debug\deps\liblock_api-b984532dcaba2e47.rlib: C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\lib.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\mutex.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\remutex.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\rwlock.rs
+
+D:\testProj\target\debug\deps\liblock_api-b984532dcaba2e47.rmeta: C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\lib.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\mutex.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\remutex.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\rwlock.rs
+
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\lib.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\mutex.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\remutex.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lock_api-0.4.14\src\rwlock.rs:

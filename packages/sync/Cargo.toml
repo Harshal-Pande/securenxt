@@ -1,0 +1,15 @@
+[package]
+name = "securenxt-sync"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+securenxt-git-engine = { path = "../git-engine" }
+securenxt-protocol = { path = "../protocol" }
+securenxt-security = { path = "../security" }
+securenxt-bluetooth = { path = "../bluetooth" }
+securenxt-storage = { path = "../storage" }
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+cbor4ii = { workspace = true }

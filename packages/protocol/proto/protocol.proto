@@ -1,0 +1,54 @@
+syntax = "proto3";
+package securenxt.protocol;
+
+// Outer frame wrapping all data exchanged over the secure socket channel.
+message Frame {
+  uint32 version = 1;
+  bytes signature = 2; // Ed25519 signature of the payload by sender identity
+  uint64 sequence_number = 3; // Prevent replay attacks
+  uint64 timestamp = 4; // Session replay and delay prevention
+  
+  oneof payload {
+    HandshakeMsg handshake = 5;
+    ControlMsg control = 6;
+    DataMsg data = 7;
+  }
+}
+
+// Noise protocol authentication payload
+message HandshakeMsg {
+  enum Step {
+    NOISE_INIT = 0;
+    NOISE_RESPONSE = 1;
+    OTP_VERIFY = 2;
+  }
+  Step step = 1;
+  bytes ephemeral_pubkey = 2; // e
+  bytes static_pubkey_encrypted = 3; // s (encrypted in noise flow)
+  bytes noise_payload = 4; // Contains OTP verification tokens / signatures
+}
+
+// Session negotiation and DAG delta matching control frames
+message ControlMsg {
+  enum Type {
+    REPO_ADVERTISEMENT = 0;
+    COMMIT_WANT_LIST = 1;
+    SYNC_COMPLETE = 2;
+    SYNC_ERROR = 3;
+    KEEP_ALIVE = 4;
+  }
+  Type type = 1;
+  bytes repository_id = 2; // 32-byte unique repository token
+  repeated string branches = 3; // List of active branch names
+  repeated string head_hashes = 4; // List of local branch HEAD hashes
+  repeated string want_commits = 5; // List of missing commit hashes requested
+  string error_message = 6;
+}
+
+// Binary chunk transmission for Git packfiles
+message DataMsg {
+  uint32 chunk_index = 1;
+  uint32 total_chunks = 2;
+  bytes data_chunk = 3; // Compressed and encrypted packfile slice
+  string chunk_hash_sha256 = 4; // Fragment verification checksum
+}

@@ -1,0 +1,15 @@
+[package]
+name = "securenxt-crypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ring = { workspace = true }
+aes-gcm = { workspace = true }
+ed25519-dalek = { workspace = true }
+x25519-dalek = { workspace = true }
+hkdf = { workspace = true }
+sha2 = { workspace = true }
+rand = { workspace = true }
+argon2 = { workspace = true }
+serde = { workspace = true }

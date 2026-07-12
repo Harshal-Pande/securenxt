@@ -1,0 +1,15 @@
+D:\testProj\target\debug\deps\markup5ever-973a5d158b286558.d: C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\lib.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\data\mod.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\interface\mod.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\interface\tree_builder.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\serialize.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\util\buffer_queue.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\util\smallcharset.rs D:\testProj\target\debug\build\markup5ever-d0d415023aff33c2\out/generated.rs D:\testProj\target\debug\build\markup5ever-d0d415023aff33c2\out/named_entities.rs
+
+D:\testProj\target\debug\deps\libmarkup5ever-973a5d158b286558.rmeta: C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\lib.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\data\mod.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\interface\mod.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\interface\tree_builder.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\serialize.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\util\buffer_queue.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\util\smallcharset.rs D:\testProj\target\debug\build\markup5ever-d0d415023aff33c2\out/generated.rs D:\testProj\target\debug\build\markup5ever-d0d415023aff33c2\out/named_entities.rs
+
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\lib.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\data\mod.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\interface\mod.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\interface\tree_builder.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\serialize.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\util\buffer_queue.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\markup5ever-0.11.0\util\smallcharset.rs:
+D:\testProj\target\debug\build\markup5ever-d0d415023aff33c2\out/generated.rs:
+D:\testProj\target\debug\build\markup5ever-d0d415023aff33c2\out/named_entities.rs:
+
+# env-dep:OUT_DIR=D:\\testProj\\target\\debug\\build\\markup5ever-d0d415023aff33c2\\out

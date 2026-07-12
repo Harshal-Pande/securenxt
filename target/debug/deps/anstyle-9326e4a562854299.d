@@ -1,0 +1,10 @@
+D:\testProj\target\debug\deps\anstyle-9326e4a562854299.d: C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\lib.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\macros.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\color.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\effect.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\reset.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\style.rs
+
+D:\testProj\target\debug\deps\libanstyle-9326e4a562854299.rmeta: C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\lib.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\macros.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\color.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\effect.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\reset.rs C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\style.rs
+
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\lib.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\macros.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\color.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\effect.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\reset.rs:
+C:\Users\Harshal\ Pande\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\anstyle-1.0.14\src\style.rs:

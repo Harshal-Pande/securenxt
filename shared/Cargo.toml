@@ -1,0 +1,16 @@
+[package]
+name = "securenxt-shared"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
+securenxt-sync = { path = "../packages/sync" }
+securenxt-git-engine = { path = "../packages/git-engine" }
+securenxt-security = { path = "../packages/security" }
+securenxt-storage = { path = "../packages/storage" }
+uniffi = { workspace = true }
+serde = { workspace = true }
+thiserror = "1.0"

@@ -1,0 +1,17 @@
+[package]
+name = "securenxt-desktop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tauri = { version = "1.5", features = ["api-all"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+securenxt-sync = { path = "../../../packages/sync" }
+securenxt-git-engine = { path = "../../../packages/git-engine" }
+securenxt-security = { path = "../../../packages/security" }
+securenxt-storage = { path = "../../../packages/storage" }
+tokio = { workspace = true }
+
+[build-dependencies]
+tauri-build = "1.5"
